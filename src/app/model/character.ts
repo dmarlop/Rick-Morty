@@ -1,4 +1,4 @@
-
+import { Origin } from "./origin";
 
 export class Character {
     
@@ -8,9 +8,12 @@ export class Character {
        species: string,
        type: string,
        gender: string,
+       origin: Location,
        location: Location,
+       image: string,
+       episodes: string[],
        url: string,
-       episodes: string[]
+       created: Date
 
     ){}
 }
