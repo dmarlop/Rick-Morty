@@ -1,5 +1,5 @@
-import { Origin } from "./origin";
 
+import { Locations } from "./locations";
 export class Character {
     
     Character(
@@ -8,8 +8,8 @@ export class Character {
        species: string,
        type: string,
        gender: string,
-       origin: Location,
-       location: Location,
+       origin: Locations,
+       location: Locations,
        image: string,
        episodes: string[],
        url: string,
